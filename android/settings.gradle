@@ -1,0 +1,4 @@
+rootProject.name = 'MyNativeForm'
+
+include ':MyNativeForm'
+project(':MyNativeForm').projectDir = new File(rootDir, 'lib')
