@@ -4,4 +4,5 @@
 @interface RNViewManager: NSObject
 + (UIView *)getReactNativeView;
 +(UIView *)getSeatSupportView;
++(UIView *)getStaticBox;
 @end
